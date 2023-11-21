@@ -38,8 +38,30 @@ window.addEventListener('scroll', shadowHeader)
 
 
 /*=============== EMAIL JS ===============*/
+const contactForm = document.getElementById('contact-form'),
+      contactMessage = document.getElementById('contact-message')
 
 
+const sendEmail = (e) =>{
+    e.preventDefault()
+
+    //serviceID - templateId - #form - publicKey
+    emailjs.sendForm('service_e4id1c2','template_2xosk1f','#contact-form','ovuZPJnrkNamvBsXU')
+    .then(()=>{
+        //show sent message
+        contactMessage.textContent = 'Message sent successfully'
+        //remove message after five seconds
+        setTimeout(()=>{
+            contactMessage.textContent = ''
+        },5000)
+
+        //clear Input Field
+        contactForm.reset();
+    }, () =>{
+        contactMessage.textContent = 'Message not sent (service error)'
+    })
+}
+contactForm.addEventListener('submit',sendEmail)
 /*=============== SHOW SCROLL UP ===============*/ 
 
 

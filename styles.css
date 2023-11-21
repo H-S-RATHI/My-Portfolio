@@ -905,7 +905,7 @@ img {
   column-gap: .75rem;
 }
 
-.contaact__social-link{
+.contact__social-link{
   background-color: var(--black-color-light);
   padding: 6px;
   color: var(--white-color);
@@ -917,6 +917,14 @@ img {
 
 .contact__social-link:hover{
   background-color: var(--first-color);
+}
+
+.contact__message{
+  color: var(--white-color);
+  font-size: var(--small-font-size);
+  position: absolute;
+  bottom: -1.6rem;
+  left: 0;
 }
 
 /*=============== FOOTER ===============*/
