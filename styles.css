@@ -1567,6 +1567,10 @@ body.dark-theme {
     width: 70px;
     margin: -220px 0px 0px 178px;
   }
+  .contact__social-link{
+    padding: 6px;
+    font-size: 2rem;
+  }
 
   .dark-theme .contact__data {
     box-shadow: 4px 0 8px hsla(0, 0%, 4%, .3);
