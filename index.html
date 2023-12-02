@@ -1,1187 +1,1608 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
     <!--=============== REMIXICONS ===============-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
     <title>H.S Rathi</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                <span class="nav__logo-circle">R</span>
-                <span class="nav__logo-name">H.S Rathi</span>
-            </a>
-            <div class="nav__menu" id="nav-menu">
-                <span class="nav__title">Menu</span>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">R</span>
+          <span class="nav__logo-name">H.S Rathi</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
 
-                <h3 class="nav__name">H.S Rathi</h3>
+          <h3 class="nav__name">H.S Rathi</h3>
 
-                <ul class="nav__list">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">Home</a>
-                    </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About Me</a>
-                    </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#projects" class="nav__link">Projects</a>
-                    </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button">Contact</a>
+            </li>
+          </ul>
+          <!-- Close Button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__buttons">
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link nav__link-button">Contact</a>
-                    </li>
-
-                </ul>
-                <!-- Close Button -->
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
-            <div class="nav__buttons">
-                <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-                <!-- Toggle buttons -->
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-4-line"></i>
-                </div>
-            </div>
-        </nav>
+          <!-- Toggle buttons -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--==================== MAIN ====================-->
     <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <h1 class="home__name">
-                    H.S Rathi
-                </h1>
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">H.S Rathi</h1>
 
-                <div class="home__perfil">
-                    <div class="home__image">
-                        <img src="assets/home-perfil.jpg" alt="image" class="home__img">
-                        <div class="home__shadow"></div>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img
+                src="assets/home-perfill.jpg"
+                alt="image"
+                class="home__img"
+              />
+              <div class="home__shadow"></div>
 
-                        <img src="assets/curved-arrow.svg" alt="" class="home__arrow">
-                        <img src="assets/random-lines.svg" alt="" class="home__line">
+              <img src="assets/curved-arrow.svg" alt="" class="home__arrow" />
+              <img src="assets/random-lines.svg" alt="" class="home__line" />
 
-                        <div class="geometric-box"></div>
-                    </div>
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/h-s-rathi" target="_blank" class="home__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                        <a href="https://twitter.com/H_S_RATHI" target="_blank" class="home__social-link">
-                            <i class="ri-twitter-fill"></i>
-                        </a>
-                        <a href="https://github.com/H-S-RATHI" target="_blank" class="home__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="home__info">
-                    <p class="home__description">
-                        <b>Full Stack Developer</b>, With Knowledge in Web
-                        development and design, I offer the best
-                        projects resulting in my Quality work.
-                    </p>
-                    <a href="#about" class="home__scroll">
-                        <div class="home__scroll-box">
-                            <i class="ri-arrow-down-s-line"></i>
-                        </div>
-
-                        <span class="home__scroll-text">Scroll Down</span>
-                    </a>
-                </div>
+              <div class="geometric-box"></div>
             </div>
-        </section>
-
-        <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
-            <div class="about__container container grid">
-                <h2 class="section__title-1">
-                    About Me.
-                </h2>
-
-                <div class="about__perfil">
-                    <div class="about__image">
-                        <img src="assets/about-perfil.jpg" alt="image" class="about__img">
-
-                        <div class="about__shadow"></div>
-                        <div class="geometric-box"></div>
-                        <img src="assets/random-lines.svg" alt="image" class="about__line">
-                        <div class="about__box"></div>
-
-                    </div>
-                </div>
-
-                <div class="about__info">
-                    <p class="about__description">
-                        Passionate about creating <b>Web Pages</b> With
-                        <b>UI/UX user Interface</b>, I have years of
-                        experince and many clients are happy with the projects carried out.
-                    </p>
-
-                    <ul class="about__list">
-                        <li class="about__item">
-                            <b>My Skills Are:</b> HTML, CSS, JavaScript, jQuery, React, Git & GitHub, Bootstrap, Flutter
-                            & Figma.
-                        </li>
-                    </ul>
-
-                    <div class="about__buttons">
-                        <a href="#contact" class="button">
-                            <i class="ri-send-plane-line"></i> Contact Me
-                        </a>
-                        <a href="https://www.linkedin.com/in/h-s-rathi" target="_blank" class="button__ghost">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                    </div>
-                </div>
-
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/h-s-rathi"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href="https://twitter.com/H_S_RATHI"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a
+                href="https://github.com/H-S-RATHI"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
             </div>
-        </section>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>Full Stack Developer</b>, With Knowledge in Web development and
+              design, I offer the best projects resulting in my Quality work.
+            </p>
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
 
-        <!--==================== SERVICES ====================-->
-        <section class="services section">
+              <span class="home__scroll-text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">About Me.</h2>
+
+          <div class="about__perfil">
+            <div class="about__image">
+              <img
+                src="assets/about-perfill.png"
+                alt="image"
+                class="about__img"
+              />
+
+              <div class="about__shadow"></div>
+              <div class="geometric-box"></div>
+              <img
+                src="assets/random-lines.svg"
+                alt="image"
+                class="about__line"
+              />
+              <div class="about__box"></div>
+            </div>
+          </div>
+
+          <div class="about__info">
+            <p class="about__description">
+              Passionate about creating <b>Web Pages</b> With
+              <b>UI/UX user Interface</b>, I have years of experince and many
+              clients are happy with the projects carried out.
+            </p>
+
+            <ul class="about__list">
+              <li class="about__item">
+                <b>My Skills Are:</b> HTML, CSS, JavaScript, jQuery, React, Git
+                & GitHub, Bootstrap, Flutter & Figma.
+              </li>
+            </ul>
+
+            <div class="about__buttons">
+              <a href="#contact" class="button">
+                <i class="ri-send-plane-line"></i> Contact Me
+              </a>
+              <a
+                href="https://www.linkedin.com/in/h-s-rathi"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section">
+        <h2 class="section__title-2">
+          <span>Services.</span>
+        </h2>
+
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-layout-4-line"></i>
+              </div>
+              <h2 class="services__title">web Design</h2>
+              <p class="services__description">
+                Beautiful and elegant design with interfaces tthat are
+                intuitive, efficient and pleasant to use for the user.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+              <h2 class="services__title">Development</h2>
+              <p class="services__description">
+                Custom Web Development tailored to your specifications, design
+                to provide a flawless user experince.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-smartphone-line"></i>
+              </div>
+              <h2 class="services__title">Mobile App</h2>
+              <p class="services__description">
+                Design and transform webssitee projects into mobile apps to
+                provide apps to provide to a seamless user experince.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <div class="section__title-1">
+          <span>Projects in JavaScript.</span>
+        </div>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/hangman_game.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Hangman-game-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Web App</h3>
+              <h2 class="projects__title">Hangman Game</h2>
+
+              <p class="projects__description">
+                Hangman Game, a word-guessing challenge with interactive UI,
+                engaging users in vocabulary exploration.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Hangman-game-in-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Hangman-game-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Grocery_list.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Grocery-List-Using-HTML-CS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">App</h3>
+              <h2 class="projects__title">Grocery List</h2>
+
+              <p class="projects__description">
+                Crafted a user-friendly Grocery List app for efficient shopping
+                with categorized items and reminders.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Grocery-List-Using-HTML-CS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Grocery-List-Using-HTML-CS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Traveler_website.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Travel-Website-Design-Using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Travel Website</h2>
+
+              <p class="projects__description">
+                Designed a captivating Travel Website featuring destinations,
+                reviews, bookings, and personalized itineraries for users.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Travel-Website-Design-Using-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Travel-Website-Design-Using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/To-do List.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/To-Do-List-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Web App</h3>
+              <h2 class="projects__title">To-do List</h2>
+
+              <p class="projects__description">
+                Built a streamlined To-do List app ensuring task organization,
+                reminders, and efficient productivity management
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/To-Do-List-in-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/To-Do-List-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Music_Player.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Music-Player-Using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Web App</h3>
+              <h2 class="projects__title">Music Player</h2>
+
+              <p class="projects__description">
+                Developed an immersive Music Player offering playlists,
+                customizable features, and seamless audio playback experience.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Music-Player-Using-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Music-Player-Using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Quiz_App.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Quiz-App-Using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Web App</h3>
+              <h2 class="projects__title">Quiz App</h2>
+
+              <p class="projects__description">
+                Crafted an interactive Quiz App offering diverse topics,
+                scoring, and engaging user experience for learning.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Quiz-App-Using-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Quiz-App-Using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/contact_form.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Contact-Form-using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Form</h3>
+              <h2 class="projects__title">Contact Form</h2>
+
+              <p class="projects__description">
+                Created a dynamic Contact Form enabling seamless communication
+                with customizable fields and user-friendly interface.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Contact-Form-using-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Contact-Form-using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Tic_Tac_Toe.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Tic-Tac-Toe-Game-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Game</h3>
+              <h2 class="projects__title">Tic Tac Toe</h2>
+
+              <p class="projects__description">
+                Constructed a classic Tic Tac Toe game with multiplayer
+                functionality and sleek, intuitive design
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Tic-Tac-Toe-Game-in-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Tic-Tac-Toe-Game-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/stone_paper_secisssors.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Rock-Paper-Scissor-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Game</h3>
+              <h2 class="projects__title">Rock Paper Secissors</h2>
+
+              <p class="projects__description">
+                Developed a Rock Paper Scissors game with user-friendly
+                interface and engaging gameplay mechanics.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Rock-Paper-Scissor-in-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Rock-Paper-Scissor-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Dice_rolling.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Dice-Rolling-Game-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Game</h3>
+              <h2 class="projects__title">Dice Rolling</h2>
+
+              <p class="projects__description">
+                Programmed a Dice Rolling simulator allowing random outcomes and
+                customizable dice configurations for users.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Dice-Rolling-Game-in-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Dice-Rolling-Game-in-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Gallery.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Image-Gallery-using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Image Gallery</h2>
+
+              <p class="projects__description">
+                An interactive Image Gallery showcasing diverse collections with
+                filtering, sorting, and user-friendly navigation.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Image-Gallery-using-HTML-CSS-JS"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Image-Gallery-using-HTML-CSS-JS/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/calculater.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Calculator-using-HTML-CSS-JavaScript/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Web App</h3>
+              <h2 class="projects__title">Calculator</h2>
+
+              <p class="projects__description">
+                Created a functional Calculator app enabling basic and complex
+                computations with intuitive user interface.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Calculator-using-HTML-CSS-jQuery"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Calculator-using-HTML-CSS-JavaScript/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="section__title-1">
+          <span>Projects in React.</span>
+        </div>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Login-Signup.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Login-Signup-page-Using-React/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Form Design</h3>
+              <h2 class="projects__title">Login-Signup Page</h2>
+
+              <p class="projects__description">
+                Crafted a responsive React page integrating seamless login,
+                signup, and elegant design for user interaction
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Login-Signup-page-Using-React"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Login-Signup-page-Using-React/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Movie_App.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/Movie-Search-App-Using-React/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Web App</h3>
+              <h2 class="projects__title">Movie Search App</h2>
+
+              <p class="projects__description">
+                Developed a React app for seamless movie searches, offering
+                details, ratings, and personalized recommendations
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Movie-Search-App-Using-React"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/Movie-Search-App-Using-React/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/calculater_react.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://h-s-rathi.github.io/calculator-Using-React/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Web App</h3>
+              <h2 class="projects__title">Calculator</h2>
+
+              <p class="projects__description">
+                Built a React-based calculator with intuitive functions,
+                responsive design, and smooth user interaction.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/calculator-Using-React"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://h-s-rathi.github.io/calculator-Using-React/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="section__title-1">
+          <span>Projects in C Language.</span>
+        </div>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Student Management System in C.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Student-Management-System-in-C?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Student Data Management</h3>
+              <h2 class="projects__title">Management System</h2>
+
+              <p class="projects__description">
+                This program manages student records, allowing addition,
+                deletion, searching and display of student information.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Student-Management-System-in-C"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Student-Management-System-in-C?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Unit Converter in C.jpg"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Unit-Converter-in-C?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Converter</h3>
+              <h2 class="projects__title">Interactive Unit Converter</h2>
+
+              <p class="projects__description">
+                A program converting units (inches, pounds, kilometers) with
+                user input and clear output.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Unit-Converter-In-C"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Unit-Converter-in-C?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Cash Flow System in C.jpg"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Cash-Flow-System-in-C?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Simple ATM</h3>
+              <h2 class="projects__title">CashFlow Express</h2>
+
+              <p class="projects__description">
+                This project is a simple ATM system to track details of bank
+                accounts and transactions.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/CashFlow-Express-In-C"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Cash-Flow-System-in-C?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Login System in C.jpg"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Login-System-in-C?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Authentication system</h3>
+              <h2 class="projects__title">Signup-Login System</h2>
+
+              <p class="projects__description">
+                User authentication system with signup, login, and data storage
+                in "user_data.txt" file.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Login-System-In-C"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Login-System-in-C?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Tic Tac Toe in C.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Tic-tac-toc-in-C?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Game</h3>
+              <h2 class="projects__title">Tic Tac Toe</h2>
+
+              <p class="projects__description">
+                Tic Tac Toe game program with functionalities for gameplay, win
+                validation, and draw detection.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Tic-Tac-Toe"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Tic-tac-toc-in-C?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Restaurant Billing System in C.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Restaurant-Billing-System-in-C?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Bill Maker</h3>
+              <h2 class="projects__title">Restaurant Billing System</h2>
+
+              <p class="projects__description">
+                This program generates and saves restaurant bills, allows
+                viewing and searching invoices.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Restaurant-Billing-System-in-C"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Restaurant-Billing-System-in-C?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="projects section" id="projects">
+        <div class="section__title-1">
+          <span>Projects in C++.</span>
+        </div>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Online Shopping System in Cpp.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Online-Shoping-System-in-C?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Software</h3>
+              <h2 class="projects__title">Shopping System</h2>
+
+              <p class="projects__description">
+                Program allows user to shop for items, calculates total bill
+                amount, and repeats process if user desires.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Online-Shoping-System-In-CPP"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Online-Shoping-System-in-C?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Security System in Cpp.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Security-System-in-CPP?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Software</h3>
+              <h2 class="projects__title">Security System</h2>
+
+              <p class="projects__description">
+                This program implements a simple security system with options
+                for registering, logging in, and changing passwords.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Security-System-in-CPP"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Security-System-in-CPP?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Quiz Application in Cpp.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Quiz-Application-in-Cpp?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">MCQs</h3>
+              <h2 class="projects__title">Quiz Application</h2>
+
+              <p class="projects__description">
+                A multiple-choice quiz program that prompts users with questions
+                and calculates their score.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Quiz-Application-in-Cpp"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Quiz-Application-in-Cpp?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Trading Software in Cpp.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Trading-Software-in-CPP?c=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Software</h3>
+              <h2 class="projects__title">Trading System</h2>
+
+              <p class="projects__description">
+                This program is a home appliance shopping app that calculates
+                the bill and provides discounts based on amount.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Trading-Software-in-CPP"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Trading-Software-in-CPP?c=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Snake and Ladder Game in Cpp.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Snake-and-Lader-Game-in-CPP?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Game</h3>
+              <h2 class="projects__title">Snake and Ladder</h2>
+
+              <p class="projects__description">
+                This program simulates a simple snake and ladder game using C++.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Snake-And-Leader-Game-in-CPP"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Snake-and-Lader-Game-in-CPP?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/projects_img/Book Management System in Cpp.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://replit.com/@H-S-RATHI/Book-Mangement-System-in-C?v=1"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Management</h3>
+              <h2 class="projects__title">Book Management System</h2>
+
+              <p class="projects__description">
+                A C++ program for managing a book shop, allowing operations such
+                as insertion, search, update, delete, and display of books.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/H-S-RATHI/Book-Shop-Management-System-in-CPP"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i>View
+              </a>
+              <a
+                href="https://replit.com/@H-S-RATHI/Book-Mangement-System-in-C?v=1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-dribbble-line"></i>View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
             <h2 class="section__title-2">
-                <span>Services.</span>
+              <span>Contact Me.</span>
             </h2>
 
-            <div class="services__container container grid">
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-layout-4-line"></i>
-                        </div>
-                        <h2 class="services__title">web Design</h2>
-                        <p class="services__description">
-                            Beautiful and elegant design with
-                            interfaces tthat are intuitive, efficient
-                            and pleasant to use for the user.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-code-box-line"></i>
-                        </div>
-                        <h2 class="services__title">Development</h2>
-                        <p class="services__description">
-                            Custom Web Development tailored to your
-                            specifications, design to provide a flawless user experince.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-smartphone-line"></i>
-                        </div>
-                        <h2 class="services__title">Mobile App</h2>
-                        <p class="services__description">
-                            Design and transform webssitee projects into mobile apps to
-                            provide apps to provide to a seamless user experince.
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!--==================== PROJECTS ====================-->
-        <section class="projects section" id="projects">
-            <div class="section__title-1">
-                <span>Projects in JavaScript.</span>
-            </div>
-
-            <div class="projects__container container grid">
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/hangman_game.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Hangman-game-in-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Web App</h3>
-                        <h2 class="projects__title">Hangman Game</h2>
-
-                        <p class="projects__description">
-                            Hangman Game, a word-guessing challenge with interactive UI, engaging users in vocabulary
-                            exploration.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Hangman-game-in-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Hangman-game-in-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Grocery_list.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Grocery-List-Using-HTML-CS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">App</h3>
-                        <h2 class="projects__title">Grocery List</h2>
-
-                        <p class="projects__description">
-                            Crafted a user-friendly Grocery List app for efficient shopping with categorized items and
-                            reminders.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Grocery-List-Using-HTML-CS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Grocery-List-Using-HTML-CS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Traveler_website.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Travel-Website-Design-Using-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">Travel Website</h2>
-
-                        <p class="projects__description">
-                            Designed a captivating Travel Website featuring destinations, reviews, bookings, and
-                            personalized itineraries for users.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Travel-Website-Design-Using-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Travel-Website-Design-Using-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/To-do List.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/To-Do-List-in-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Web App</h3>
-                        <h2 class="projects__title">To-do List</h2>
-
-                        <p class="projects__description">
-                            Built a streamlined To-do List app ensuring task organization, reminders, and efficient
-                            productivity management
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/To-Do-List-in-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/To-Do-List-in-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Music_Player.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Music-Player-Using-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Web App</h3>
-                        <h2 class="projects__title">Music Player</h2>
-
-                        <p class="projects__description">
-                            Developed an immersive Music Player offering playlists, customizable features, and seamless
-                            audio playback experience.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Music-Player-Using-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Music-Player-Using-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Quiz_App.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Quiz-App-Using-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Web App</h3>
-                        <h2 class="projects__title">Quiz App</h2>
-
-                        <p class="projects__description">
-                            Crafted an interactive Quiz App offering diverse topics, scoring, and engaging user
-                            experience for learning.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Quiz-App-Using-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Quiz-App-Using-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/contact_form.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Contact-Form-using-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Form</h3>
-                        <h2 class="projects__title">Contact Form</h2>
-
-                        <p class="projects__description">
-                            Created a dynamic Contact Form enabling seamless communication with customizable fields and
-                            user-friendly interface.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Contact-Form-using-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Contact-Form-using-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Tic_Tac_Toe.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Tic-Tac-Toe-Game-in-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Game</h3>
-                        <h2 class="projects__title">Tic Tac Toe</h2>
-
-                        <p class="projects__description">
-                            Constructed a classic Tic Tac Toe game with multiplayer functionality and sleek, intuitive
-                            design
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Tic-Tac-Toe-Game-in-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Tic-Tac-Toe-Game-in-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/stone_paper_secisssors.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Rock-Paper-Scissor-in-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Game</h3>
-                        <h2 class="projects__title">Rock Paper Secissors</h2>
-
-                        <p class="projects__description">
-                            Developed a Rock Paper Scissors game with user-friendly interface and engaging gameplay
-                            mechanics.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Rock-Paper-Scissor-in-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Rock-Paper-Scissor-in-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Dice_rolling.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Dice-Rolling-Game-in-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Game</h3>
-                        <h2 class="projects__title">Dice Rolling</h2>
-
-                        <p class="projects__description">
-                            Programmed a Dice Rolling simulator allowing random outcomes and customizable dice
-                            configurations for users.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Dice-Rolling-Game-in-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Dice-Rolling-Game-in-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Gallery.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Image-Gallery-using-HTML-CSS-JS/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">Image Gallery</h2>
-
-                        <p class="projects__description">
-                            An interactive Image Gallery showcasing diverse collections with filtering, sorting, and
-                            user-friendly navigation.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Image-Gallery-using-HTML-CSS-JS" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Image-Gallery-using-HTML-CSS-JS/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/calculater.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Calculator-using-HTML-CSS-JavaScript/" target='_blank'
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Web App</h3>
-                        <h2 class="projects__title">Calculator</h2>
-
-                        <p class="projects__description">
-                            Created a functional Calculator app enabling basic and complex computations with intuitive
-                            user interface.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Calculator-using-HTML-CSS-jQuery" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Calculator-using-HTML-CSS-JavaScript/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section class="projects section" id="projects">
-            <div class="section__title-1">
-                <span>Projects in React.</span>
-            </div>
-
-            <div class="projects__container container grid">
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Login-Signup.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Login-Signup-page-Using-React/" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Form Design</h3>
-                        <h2 class="projects__title">Login-Signup Page</h2>
-
-                        <p class="projects__description">
-                            Crafted a responsive React page integrating seamless login, signup, and elegant design for
-                            user interaction
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Login-Signup-page-Using-React" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Login-Signup-page-Using-React/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Movie_App.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/Movie-Search-App-Using-React/" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Web App</h3>
-                        <h2 class="projects__title">Movie Search App</h2>
-
-                        <p class="projects__description">
-                            Developed a React app for seamless movie searches, offering details, ratings, and
-                            personalized recommendations
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Movie-Search-App-Using-React" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/Movie-Search-App-Using-React/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/calculater_react.png" alt="image" class="projects__img">
-
-                        <a href="https://h-s-rathi.github.io/calculator-Using-React/" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Web App</h3>
-                        <h2 class="projects__title">Calculator</h2>
-
-                        <p class="projects__description">
-                            Built a React-based calculator with intuitive functions, responsive design, and smooth user
-                            interaction.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/calculator-Using-React" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://h-s-rathi.github.io/calculator-Using-React/" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section class="projects section" id="projects">
-            <div class="section__title-1">
-                <span>Projects in C Language.</span>
-            </div>
-
-            <div class="projects__container container grid">
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Student Management System in C.png" alt="image"
-                            class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Student-Management-System-in-C?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Student Data Management</h3>
-                        <h2 class="projects__title">Management System</h2>
-
-                        <p class="projects__description">
-                            This program manages student records, allowing addition, deletion, searching and display of
-                            student information.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Student-Management-System-in-C" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Student-Management-System-in-C?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Unit Converter in C.jpg" alt="image" class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Unit-Converter-in-C?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Converter</h3>
-                        <h2 class="projects__title">Interactive Unit Converter</h2>
-
-                        <p class="projects__description">
-                            A program converting units (inches, pounds, kilometers) with user input and clear output.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Unit-Converter-In-C" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Unit-Converter-in-C?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Cash Flow System in C.jpg" alt="image" class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Cash-Flow-System-in-C?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Simple ATM </h3>
-                        <h2 class="projects__title">CashFlow Express</h2>
-
-                        <p class="projects__description">
-                            This project is a simple ATM system to track details of bank accounts and transactions.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/CashFlow-Express-In-C" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Cash-Flow-System-in-C?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Login System in C.jpg" alt="image" class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Login-System-in-C?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Authentication system</h3>
-                        <h2 class="projects__title">Signup-Login System</h2>
-
-                        <p class="projects__description">
-                            User authentication system with signup, login, and data storage in "user_data.txt" file.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Login-System-In-C" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Login-System-in-C?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Tic Tac Toe in C.png" alt="image" class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Tic-tac-toc-in-C?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Game</h3>
-                        <h2 class="projects__title">Tic Tac Toe</h2>
-
-                        <p class="projects__description">
-                            Tic Tac Toe game program with functionalities for gameplay, win validation, and draw
-                            detection.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Tic-Tac-Toe" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Tic-tac-toc-in-C?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Restaurant Billing System in C.png" alt="image"
-                            class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Restaurant-Billing-System-in-C?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Bill Maker</h3>
-                        <h2 class="projects__title">Restaurant Billing System</h2>
-
-                        <p class="projects__description">
-                            This program generates and saves restaurant bills, allows viewing and searching
-                            invoices.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Restaurant-Billing-System-in-C" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Restaurant-Billing-System-in-C?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section class="projects section" id="projects">
-            <div class="section__title-1">
-                <span>Projects in C++.</span>
-            </div>
-
-            <div class="projects__container container grid">
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Online Shopping System in Cpp.png" alt="image"
-                            class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Online-Shoping-System-in-C?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Software</h3>
-                        <h2 class="projects__title">Shopping System</h2>
-
-                        <p class="projects__description">
-                            Program allows user to shop for items, calculates total bill amount, and repeats process if
-                            user desires.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Online-Shoping-System-In-CPP" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Online-Shoping-System-in-C?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Security System in Cpp.png" alt="image" class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Security-System-in-CPP?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Software</h3>
-                        <h2 class="projects__title">Security System</h2>
-
-                        <p class="projects__description">
-                            This program implements a simple security system with options for registering, logging in,
-                            and changing passwords.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Security-System-in-CPP" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Security-System-in-CPP?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Quiz Application in Cpp.png" alt="image" class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Quiz-Application-in-Cpp?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">MCQs</h3>
-                        <h2 class="projects__title">Quiz Application</h2>
-
-                        <p class="projects__description">
-                            A multiple-choice quiz program that prompts users with questions and calculates their score.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Quiz-Application-in-Cpp" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Quiz-Application-in-Cpp?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Trading Software in Cpp.png" alt="image" class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Trading-Software-in-CPP?c=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Software</h3>
-                        <h2 class="projects__title">Trading System</h2>
-
-                        <p class="projects__description">
-                            This program is a home appliance shopping app that calculates the bill and provides
-                            discounts based on amount.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Trading-Software-in-CPP" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Trading-Software-in-CPP?c=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Snake and Ladder Game in Cpp.png" alt="image"
-                            class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Snake-and-Lader-Game-in-CPP?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Game</h3>
-                        <h2 class="projects__title">Snake and Ladder</h2>
-
-                        <p class="projects__description">
-                            This program simulates a simple snake and ladder game using C++.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Snake-And-Leader-Game-in-CPP" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Snake-and-Lader-Game-in-CPP?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="assets/projects_img/Book Management System in Cpp.png" alt="image"
-                            class="projects__img">
-
-                        <a href="https://replit.com/@H-S-RATHI/Book-Mangement-System-in-C?v=1" target="_blank"
-                            class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Management</h3>
-                        <h2 class="projects__title">Book Management System</h2>
-
-                        <p class="projects__description">
-                            A C++ program for managing a book shop, allowing operations such as insertion, search,
-                            update, delete, and display of books.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/H-S-RATHI/Book-Shop-Management-System-in-CPP" target="_blank"
-                            class="projects__link">
-                            <i class="ri-github-line"></i>View
-                        </a>
-                        <a href="https://replit.com/@H-S-RATHI/Book-Mangement-System-in-C?v=1" target="_blank"
-                            class="projects__link">
-                            <i class="ri-dribbble-line"></i>View
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!--==================== CONTACT ====================-->
-        <section class="contact section" id="contact">
-            <div class="contact__container grid">
-                <div class="contact__data">
-                    <h2 class="section__title-2">
-                        <span>Contact Me.</span>
-                    </h2>
-
-                    <p class="contact__description-1">
-                        I will read all emails. Send mee Any message you want and I'll get back to you.
-                    </p>
-                    <p class="contact__description-2">
-                        I need Your <b>Name</b> and <b>Email Address</b>, but
-                        you won't recive anything otther than you reply.
-                    </p>
-
-                    <div class="geometric-box"></div>
+            <p class="contact__description-1">
+              I will read all emails. Send mee Any message you want and I'll get
+              back to you.
+            </p>
+            <p class="contact__description-2">
+              I need Your <b>Name</b> and <b>Email Address</b>, but you won't
+              recive anything otther than you reply.
+            </p>
+
+            <div class="geometric-box"></div>
+          </div>
+
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me a Message</h2>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
                 </div>
 
-                <div class="contact__mail">
-                    <h2 class="contact__title">Send Me a Message</h2>
-
-                    <form action="" class="contact__form" id="contact-form">
-                        <div class="contact__group">
-                            <div class="contact__box">
-                                <input type="text" name="user_name" class="contact__input" id="name" required
-                                    placeholder="First Name">
-                                <label for="name" class="contact__label">First Name</label>
-                            </div>
-
-                            <div class="contact__box">
-                                <input type="email" name="user_email" class="contact__input" id="email" required
-                                    placeholder="Email Address">
-                                <label for="email" class="contact__label">Email Address</label>
-                            </div>
-                        </div>
-                        <div class="contact__box">
-                            <input type="text" name="user_subject" class="contact__input" id="subject" required
-                                placeholder="Subject">
-                            <label for="subject" class="contact__label">Subject</label>
-                        </div>
-                        <div class="contact__box contact__area">
-                            <textarea name="user_message" id="message" class="contact__input" required
-                                placeholder="Message"></textarea>
-                            <label for="message" class="contact__label">Message</label>
-                        </div>
-
-                        <p class="contact__message" id="contact-message"></p>
-
-                        <button type="submit" class="contact__button button">
-                            <i class="ri-send-plane-line">Send Message</i>
-                        </button>
-                    </form>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
                 </div>
-                <div class="contact__social">
-                    <img src="assets/curved-arrow.svg" alt="" class="contact__social-arrow">
+              </div>
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
 
-                    <div class="contact__social-data">
-                        <div class="">
-                            <p class="contact__social-description-1">Does not send emails</p>
-                            <p class="contact__social-description-2">Write me on social networks</p>
-                        </div>
+              <p class="contact__message" id="contact-message"></p>
 
-                        <div class="contact__social-links">
-                            <a href="https://api.whatsapp.com/send?phone=917454029951" class="contact__social-link"
-                                target="_blank">
-                                <i class="ri-whatsapp-fill"></i>
-                            </a>
-                            <a href="https://twitter.com/H_S_RATHI" target="_blank" class="contact__social-link">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/h-s-rathi" target="_blank"
-                                class="contact__social-link">
-                                <i class="ri-linkedin-box-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line">Send Message</i>
+              </button>
+            </form>
+          </div>
+          <div class="contact__social">
+            <img
+              src="assets/curved-arrow.svg"
+              alt=""
+              class="contact__social-arrow"
+            />
+
+            <div class="contact__social-data">
+              <div class="">
+                <p class="contact__social-description-1">
+                  Does not send emails
+                </p>
+                <p class="contact__social-description-2">
+                  Write me on social networks
+                </p>
+              </div>
+
+              <div class="contact__social-links">
+                <a
+                  href="https://api.whatsapp.com/send?phone=917454029951"
+                  class="contact__social-link"
+                  target="_blank"
+                >
+                  <i class="ri-whatsapp-fill"></i>
+                </a>
+                <a
+                  href="https://twitter.com/H_S_RATHI"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-twitter-fill"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/h-s-rathi"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
-        <div class="footer__container container grid">
-            <ul class="footer__links">
-                <li>
-                    <a href="#about" class="footer__link">About</a>
-                </li>
-                <li>
-                    <a href="#services" class="footer__link">Services</a>
-                </li>
-                <li>
-                    <a href="#projects" class="footer__link">Projects</a>
-                </li>
-            </ul>
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
 
-            <span class="footer__copy">
-                &#169; All Rights Reserved By
-                <a href="">H.S Rathi.</a>
-            </span>
-        </div>
+        <span class="footer__copy">
+          &#169; All Rights Reserved By
+          <a href="">H.S Rathi.</a>
+        </span>
+      </div>
     </footer>
 
     <!--========== SCROLL UP ==========-->
     <a href="#home" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-s-line"></i>
+      <i class="ri-arrow-up-s-line"></i>
     </a>
 
     <!--=============== SCROLLREVEAL ===============-->
@@ -1190,9 +1611,7 @@
     <!--=============== EMAIL JS ===============-->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-
     <!--=============== MAIN JS ===============-->
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
